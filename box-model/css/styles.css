@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|PT+Sans&display=swap');
+
+* {
+box-sizing: border-box}
+
+/* html{
+    font-size: 10px; */
+
+body{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 15px;
+}
+.features {
+    font-size: 0;
+}
+
+.feature{
+    font-size: 14px;
+    display: inline-block;
+    width: 24%;
+    margin: .1%;
+    padding: 30px;
+    text-align: center;  
+    vertical-align: middle;  
+    background-color: #f7f7f7;
+    border-color: 1px solid #ececec;
+}
+/* .features {
+display: flex;
+padding-left: 0;
+flex-wrap: nowrap;
+align-items: center;
+} */
+
+/* .feature{
+
+    font-size: 14px;
+    margin: .01%;
+    padding: 30px;
+    text-align: center;    
+    background-color: #f7f7f7;
+    border-color: 1px solid #ececec;
+} */
+
+.feature:hover,
+.feature:focus,
+.feature:active {
+    color:#fff;
+    background-color: #0ec8cb;
+}
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    color: #0ec8cb;
+    line-height: 1;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #898f99;
+    letter-spacing: 6px;
+}
+section > p{
+    font-family: 'PT Sans' serif;
+    font-size: 18px;
+    font-weight: normal;
+    color:#999999;
+    line-height: 1.66;
+    padding: 20px 200px;
+}
+    
+.feature h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    min-height: 62px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature span{
+    font-size: 60px;
+    color: #1b1b1b;
+    }
+
+.feature:hover h4,
+.feature:focus h4,
+.feature:active h4{
+        color: #fff;
+    }
+
+.feature:hover span,
+.feature:focus span,
+.feature:active span{
+    color: #fff;
+}
+* {
+    transition: opacity .3s ease-in;
+}
