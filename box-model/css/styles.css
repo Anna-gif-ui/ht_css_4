@@ -85,7 +85,7 @@ section > p{
     font-weight: normal;
     color:#999999;
     line-height: 1.66;
-    padding: 20px 200px;
+    /* padding: 20px 200px; */
 }
     
 .feature h4{

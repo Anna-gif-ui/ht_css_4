@@ -9,6 +9,7 @@ body{
     color: #fff;
     background-color: rgb(43 134 192);
     border: 20px solid rgb(36 109 156);
+    min-height: 100vh;
 }
 
 header footer{
@@ -45,57 +46,57 @@ p{
     opacity: 60%;
 }
 
-.lisbon{
+.col__1--2{
     width: 50%;
+}
+
+.col__1--4{
+    width: 25%;
+}
+.col__1{
+    width: 100%;   
+}
+
+.coloured--blue{  
     background-color: rgb(43 134 192);
 }
 
-.paris {
-    width: 25%;
+.coloured--biruza{
     background-color: rgb(47 195 192);
 }
 
-.belgrade{
-    width: 25%;
+.coloured--violet{
     background-color: rgb(133 80 135); 
 }
 
-.moscow {
-    width: 25%;
+.coloured--red{
     background-color: rgb(178 50 55);
 }
-.telaviv{
-    width: 25%;
+.coloured--orange{
     background-color: rgb(216 81 58); 
 }
 
-.cair{
-    width: 25%;
+.coloured--yellow{
     background-color: rgb(254 194 84);
 }
 
-.newyork{
-    width: 25%;
+.coloured--light-green{
     background-color: rgb(137 195 135);
 }
 
-.newdelhi{
-    width: 25%;
+.coloured--dark-green{
     background-color: rgb(86 135 136);
 }
 
-.sanfrancisco{
-    width: 50%;
+.coloured--pink{
     background-color: rgb(190 77 135);
 }
 
-.tokyo{
-    width: 25%;
+.coloured--grass-green{
     background-color: rgb(43 137 83);
 }
 
-.sydney{
-    width: 100%;
+.coloured--purple{
     background-color: rgb(82 81 135);
 }
 
